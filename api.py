@@ -1,8 +1,8 @@
-from thermia import ThermiaOnline
+from ThermiaOnlineAPI import Thermia
 
 class ThermiaHeatPumpAPI:
     def __init__(self, username, password):
-        self._client = ThermiaOnline(username, password)
+        self._client = Thermia(username, password)
 
     def set_register(self, register, value):
         # Using the provided set_register method
