@@ -4,7 +4,9 @@
   "documentation": "https://github.com/fclauson/thermia_set",
   "dependencies": [],
   "codeowners": ["@fclauson"],
-  "requirements": ["python-thermia-online-api==0.1.3"],
+  "requirements": ["ThermiaOnlineAPI=5.1.0"],
+  "config_flow" : true,
   "version": "1.0.0"
 }
+
 
