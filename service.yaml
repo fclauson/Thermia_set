@@ -1,0 +1,10 @@
+set_register:
+  name: "Set Thermia Register"
+  description: "Set a specific register on the Thermia Heat Pump"
+  fields:
+    register:
+      description: "The register to set (name or number)"
+      example: "4095"
+    value:
+      description: "The value to set"
+      example: "22"
